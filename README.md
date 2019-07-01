@@ -20,3 +20,6 @@
   * Green Post-its - Git Management
 
 ![Project Backlog](./images/project_backlog.jpg)
+
+## KANBAN
+[Team Scorchio Kanban](https://trello.com/invite/b/hBwe7g1w/cfa99aa38609768a8668ecfb506c6ef1/makersbnb)
