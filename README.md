@@ -1,6 +1,6 @@
 # TEAM SCORCHIO: MAKERS BnB
 
-## USER STORIES
+## Headline Specifications
 
 >* Any signed-up user can list a new space.  
 >* Users can list multiple spaces.  
@@ -9,6 +9,27 @@
 >* Any signed-up user can request to hire any space for one night, and this should be approved by the user that owns that space.  
 >* Nights for which a space has already been booked should not be available for users to book that space.
 >* Until a user has confirmed a booking request, that space can still be booked for that night.
+
+### User Story 1: Create New Space
+
+As a space owner,  
+So that I can hire out my space,  
+I'd like to add a name, a short description and the price per night.  
+I'd like to restrict availability to a single date range before publishing.  
+
+### User Story 2: Listing Spaces Available for Rent
+
+As a space renter,  
+So that I can see available spaces to rent,  
+I'd like to search for available spaces by entering from and to dates.
+
+### User Story 3: Booking Request
+
+As a signed-up user,
+So that I can 
+I'd like to 
+
+
 
 ## PROJECT BACKLOG
 
