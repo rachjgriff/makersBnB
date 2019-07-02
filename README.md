@@ -10,25 +10,37 @@
 >* Nights for which a space has already been booked should not be available for users to book that space.
 >* Until a user has confirmed a booking request, that space can still be booked for that night.
 
-### User Story 1: Create New Space
+### User Story 1: Space Owner: Create New Space
 
 As a space owner,  
 So that I can hire out my space,  
 I'd like to add a name, a short description and the price per night.  
 I'd like to restrict availability to a single date range before publishing.  
 
-### User Story 2: Listing Spaces Available for Rent
+### User Story 2: Space Renter: Listing Spaces Available for Rent
 
 As a space renter,  
 So that I can see available spaces to rent,  
 I'd like to search for available spaces by entering from and to dates.
+I'd like to only see spaces that the space owner has made available.
 
-### User Story 3: Booking Request
+### User Story 3: Space Renter: Booking Request
 
-As a signed-up user,
-So that I can 
-I'd like to 
+As a space renter,  
+So that I can request a booking,  
+I'd like to fill in and submit a request with my required date (one night) and chosen space
 
+### User Story 4: Space Owner: Booking Confirmation
+
+As a space owner,  
+So that I can confirm the booking request,  
+I'd like to change the status of request to confirmed
+
+### User Story 5: Space 
+
+As a space owner,
+So that i can
+I'd like to
 
 
 ## PROJECT BACKLOG
