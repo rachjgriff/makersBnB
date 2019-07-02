@@ -15,6 +15,8 @@
 ## USER STORIES
 ----------
 
+ASSUMPTION: Space Owners & Space Renters are already signed up.
+
 ### User Story 1: Space Owner: Create New Space
 
 As a space owner,  
@@ -22,6 +24,14 @@ So that I can hire out my space,
 I'd like to add a name, a short description, the price per night and available date range.  
 
 *Space owner can restrict availability to a single date range before publishing.*
+
+I can create a space:
+* I can add a name for my space.
+* I can add a short description for my space.
+* I can add the price per night for my space.
+
+In the future, it would be nice to create a space with the following information:
+* I can add an available date range for my space. 
 
 ### User Story 2: Space Renter: Listing Spaces Available for Rent
 
