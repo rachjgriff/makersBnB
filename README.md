@@ -1,6 +1,8 @@
 # TEAM SCORCHIO: MAKERS BnB
+----------
 
-## Headline Specifications
+## HEADLINE SPECIFICATIONS
+----------
 
 >* Any signed-up user can list a new space.  
 >* Users can list multiple spaces.  
@@ -10,40 +12,41 @@
 >* Nights for which a space has already been booked should not be available for users to book that space.
 >* Until a user has confirmed a booking request, that space can still be booked for that night.
 
+## USER STORIES
+----------
+
 ### User Story 1: Space Owner: Create New Space
 
 As a space owner,  
 So that I can hire out my space,  
-I'd like to add a name, a short description and the price per night.  
-I'd like to restrict availability to a single date range before publishing.  
+I'd like to add a name, a short description, the price per night and available date range.  
+*I'd like to restrict availability to a single date range before publishing.*
 
 ### User Story 2: Space Renter: Listing Spaces Available for Rent
 
 As a space renter,  
 So that I can see available spaces to rent,  
 I'd like to search for available spaces by entering from and to dates.
-I'd like to only see spaces that the space owner has made available.
+*I'd like to only see spaces that the space owner has made available.*
+*I'd like to still see spaces that have a confirmed booking request.*
 
 ### User Story 3: Space Renter: Booking Request
 
 As a space renter,  
-So that I can request a booking,  
-I'd like to fill in and submit a request with my required date (one night) and chosen space
+So that I can request a booking for a space,  
+I'd like to fill in and submit a booking request with my required date (one night) and chosen space.  
+*I'd like to see whether or not the space has already been booked by date.*
+*I'd like to be able to send a booking request for a space even if another space renter has also done this.*
 
 ### User Story 4: Space Owner: Booking Confirmation
 
 As a space owner,  
-So that I can confirm the booking request,  
-I'd like to change the status of request to confirmed
-
-### User Story 5: Space 
-
-As a space owner,
-So that i can
-I'd like to
-
+So that I can confirm a booking request,  
+I'd like to change the status of a booking request to confirmed.  
+*I'd like to only be able to confirm one booking request for the space on a specific date.*
 
 ## PROJECT BACKLOG
+----------
 
 * Below is our project backlog board - it shows every element of our project
 * Our key areas are:
