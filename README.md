@@ -1,6 +1,27 @@
 # TEAM SCORCHIO: MAKERS BnB
 ----------
 
+## HOW TO USE
+
+* Clone the project in GitHub (https://github.com/rachjgriff/makersBnB)
+* Install gems
+
+```console
+$ bundle install
+```
+
+## HOW TO TEST
+
+* Run rspec from the command line
+```
+$ rspec
+```
+
+* To run rubocop
+```
+$ rubocop
+```
+
 ## HEADLINE SPECIFICATIONS
 ----------
 
