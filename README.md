@@ -20,30 +20,34 @@
 As a space owner,  
 So that I can hire out my space,  
 I'd like to add a name, a short description, the price per night and available date range.  
-*I'd like to restrict availability to a single date range before publishing.*
+
+*Space owner can restrict availability to a single date range before publishing.*
 
 ### User Story 2: Space Renter: Listing Spaces Available for Rent
 
 As a space renter,  
 So that I can see available spaces to rent,  
-I'd like to search for available spaces by entering from and to dates.
-*I'd like to only see spaces that the space owner has made available.*
-*I'd like to still see spaces that have a confirmed booking request.*
+I'd like to search for available spaces by entering from and to dates.  
+
+*Space Renter can only see spaces that the space owner has made available.*  
+*Space Renter can still see spaces that have a confirmed booking request within the entered dates.*
 
 ### User Story 3: Space Renter: Booking Request
 
 As a space renter,  
 So that I can request a booking for a space,  
 I'd like to fill in and submit a booking request with my required date (one night) and chosen space.  
-*I'd like to see whether or not the space has already been booked by date.*
-*I'd like to be able to send a booking request for a space even if another space renter has also done this.*
+
+*Space Renter can see whether or not the space has already been booked by date.*  
+*Space Renter is able to send a booking request for a space even if another space renter has also done this.*
 
 ### User Story 4: Space Owner: Booking Confirmation
 
 As a space owner,  
 So that I can confirm a booking request,  
 I'd like to change the status of a booking request to confirmed.  
-*I'd like to only be able to confirm one booking request for the space on a specific date.*
+
+*Space owner is only able to confirm one booking request for the space on a specific date.*
 
 ## PROJECT BACKLOG
 ----------
