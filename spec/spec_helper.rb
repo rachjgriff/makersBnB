@@ -1,4 +1,4 @@
-#Set the environment variable to "test"
+# Set the environment variable to "test"
 ENV['RACK_ENV'] = 'test'
 
 require File.join(File.dirname(__FILE__), '..', 'app.rb')
