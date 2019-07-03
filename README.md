@@ -63,6 +63,14 @@ I'd like to search for available spaces by entering from and to dates.
 *Space Renter can only see spaces that the space owner has made available.*  
 *Space Renter can still see spaces that have a confirmed booking request within the entered dates.*
 
+I can see a list of all spaces:
+* I can see the name of the space.
+* I can see the description of the space.
+* I can see the price per night of the the space.
+
+In the future, it would be nice to filter out spaces that are not available within a specified date range:
+* I can search for available spaces by entering from and to dates.
+
 ### User Story 3: Space Renter: Booking Request
 
 As a space renter,  
