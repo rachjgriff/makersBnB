@@ -1,6 +1,6 @@
 # TEAM SCORCHIO: MAKERS BnB
 ----------
-
+THIS IS A CHANGE IN THE README
 ## HOW TO USE
 
 * Clone the project in GitHub (https://github.com/rachjgriff/makersBnB)
@@ -52,7 +52,7 @@ I can create a space:
 * I can add the price per night for my space.
 
 In the future, it would be nice to create a space with the following information:
-* I can add an available date range for my space. 
+* I can add an available date range for my space.
 
 ### User Story 2: Space Renter: Listing Spaces Available for Rent
 
