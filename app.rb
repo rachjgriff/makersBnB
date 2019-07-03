@@ -8,6 +8,7 @@ class MakersBnB < Sinatra::Base
 
 
   get '/spaces' do
+    @spaces = ['Boardroom', 'Hall', 'My House']
     erb :list_spaces
   end
 
