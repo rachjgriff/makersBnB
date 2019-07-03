@@ -1,6 +1,7 @@
 # TEAM SCORCHIO: MAKERS BnB
 ----------
-THIS IS A CHANGE IN THE README
+THIS IS A CHANGE IN THE README.
+:P
 ## HOW TO USE
 
 * Clone the project in GitHub (https://github.com/rachjgriff/makersBnB)
