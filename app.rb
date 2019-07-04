@@ -15,5 +15,9 @@ class MakersBnB < Sinatra::Base
   post '/spaces' do
   end
 
+  get '/signup' do
+    erb :signup
+  end
+
   run! if app_file == $0
 end
