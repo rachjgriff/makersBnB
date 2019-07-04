@@ -105,7 +105,7 @@ I'd like to change the status of a booking request to confirmed.
 
 ## DATABASE INSTRUCTIONS
 * Connect to psql
-* Create the database and the testing database using the pqql commands:
+* Create the database and the testing database using the psql commands:
 
 ```
 CREATE DATABASE makers_bnb;
@@ -116,9 +116,9 @@ CREATE DATABASE makers_bnb_test;
 * Connect to the database using the psql command:
 
 ```
-\c makers_BnB;
+\c makers_bnb;
 
-\c makers_BnB_test;
+\c makers_bnb_test;
 ```
 
 * To set up the appropriate tables, connect to each database in 'psql' and run the SQL scripts in the 'db/migrations' folder in given order.
