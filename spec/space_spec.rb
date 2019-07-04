@@ -11,7 +11,8 @@ describe Space do
   end
 
   it 'knows its name' do
-    boardroom = Space.new("Makers")
+    boardroom = Space.new(id: '1', name: 'Makers')
+    expect(boardroom.id).to eq("1")
     expect(boardroom.name).to eq("Makers")
   end
 
@@ -29,8 +30,6 @@ describe Space do
       expect(list_spaces.first).to be_a Space
       # expect(list_spaces.first.id).to eq db_query_result.id
       expect(list_spaces.first.name).to eq 'Rachels house'
-      p db_query_result
-      p list_spaces
     end
   end
 end
