@@ -11,5 +11,7 @@ feature 'add space' do
     expect(page).to have_content("Enter a name for the new space")
     fill_in('name', with: "Team Scorchio's House")
     click_button('Add')
+
+    expect(page).to have_content("Team Scorchio's House")
   end
 end
