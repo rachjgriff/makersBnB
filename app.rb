@@ -1,4 +1,5 @@
 require 'sinatra/base'
+require './lib/space'
 
 class MakersBnB < Sinatra::Base
 
@@ -6,9 +7,8 @@ class MakersBnB < Sinatra::Base
     erb :new_space
   end
 
-
   get '/spaces' do
-    @spaces = ['Boardroom', 'Hall', 'My House']
+    @spaces = Space.all
     erb :list_spaces
   end
 

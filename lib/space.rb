@@ -1,3 +1,5 @@
+require 'pg'
+
 class Space
 
   attr_reader :id, :name
