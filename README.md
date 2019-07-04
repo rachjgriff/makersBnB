@@ -102,3 +102,23 @@ I'd like to change the status of a booking request to confirmed.
 
 ## KANBAN
 [Team Scorchio Kanban](https://trello.com/invite/b/hBwe7g1w/cfa99aa38609768a8668ecfb506c6ef1/makersbnb)
+
+## DATABASE INSTRUCTIONS
+* Connect to psql
+* Create the database and the testing database using the psql commands:
+
+```
+CREATE DATABASE makers_bnb;
+
+CREATE DATABASE makers_bnb_test;
+```
+
+* Connect to the database using the psql command:
+
+```
+\c makers_bnb;
+
+\c makers_bnb_test;
+```
+
+* To set up the appropriate tables, connect to each database in 'psql' and run the SQL scripts in the 'db/migrations' folder in given order.
