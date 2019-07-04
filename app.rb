@@ -6,8 +6,13 @@ class MakersBnB < Sinatra::Base
     erb :new_space
   end
 
+
+  get '/spaces' do
+    @spaces = ['Boardroom', 'Hall', 'My House']
+    erb :list_spaces
+  end
+
   post '/spaces' do
-    erb :success
   end
 
   run! if app_file == $0
