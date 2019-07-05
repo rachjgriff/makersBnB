@@ -2,19 +2,21 @@ require 'sinatra/base'
 require './lib/space'
 require './lib/user'
 
+
 class MakersBnB < Sinatra::Base
 
   get '/spaces/new' do
     erb :new_space
   end
 
-
   get '/spaces' do
-    @spaces = ['Boardroom', 'Hall', 'My House']
+    @spaces = Space.all
     erb :list_spaces
   end
 
   post '/spaces' do
+    Space.create(name: params[:name])
+    redirect '/spaces'
   end
 
   get '/signup' do

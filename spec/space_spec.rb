@@ -2,18 +2,18 @@ require 'pg'
 require 'space'
 
 describe Space do
-  it 'responds to create method' do
-    expect(Space).to respond_to(:create)
-  end
+  describe '.create' do
+    it 'responds to create method' do
+      expect(Space).to respond_to(:create)
+    end
 
-  it 'returns a space' do
-    expect(Space.create).to eq("Space")
-  end
+    it 'creates a space in the database' do
+      Space.create(name: "Makers")
+      spaces = Space.all
 
-  it 'knows its name' do
-    boardroom = Space.new(id: '1', name: 'Makers')
-    expect(boardroom.id).to eq("1")
-    expect(boardroom.name).to eq("Makers")
+      expect(spaces.first).to be_a Space
+      expect(spaces.first.name).to eq "Makers"
+    end
   end
 
   describe '.all' do
@@ -31,5 +31,11 @@ describe Space do
       # expect(list_spaces.first.id).to eq db_query_result.id
       expect(list_spaces.first.name).to eq 'Rachels house'
     end
+  end
+
+  it 'knows its name' do
+    boardroom = Space.new(id: '1', name: 'Makers')
+    expect(boardroom.id).to eq("1")
+    expect(boardroom.name).to eq("Makers")
   end
 end
