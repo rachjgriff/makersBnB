@@ -6,6 +6,6 @@ feature 'Adding a new user' do
     fill_in('email', with: 'test@gmail.com')
     fill_in('password', with: 'testpassword')
     click_button('Submit')
-    expect(page).to respond_to()
+    expect(page).to have_content('All Spaces')
   end
 end
