@@ -2,7 +2,6 @@ require 'sinatra/base'
 require './lib/space'
 require './lib/user'
 
-
 class MakersBnB < Sinatra::Base
 
   get '/spaces/new' do
@@ -24,8 +23,13 @@ class MakersBnB < Sinatra::Base
   end
 
   post '/signup' do
-  user = User.create(name: params[:name], username: params[:username], email: params[:email], password: params[:password])
-  redirect '/spaces'
+    User.create(
+      name: params[:name],
+      username: params[:username],
+      email: params[:email],
+      password: params[:password]
+    )
+    redirect '/spaces'
   end
 
   run! if app_file == $0

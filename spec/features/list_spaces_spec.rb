@@ -9,12 +9,12 @@
 feature 'list spaces' do
   scenario 'list all spaces available' do
     connection = PG.connect(dbname: 'makers_bnb_test')
-    db_query_result = connection.exec("INSERT INTO spaces (name) VALUES ('Rachels house');")
+    connection.exec("INSERT INTO spaces (name) VALUES ('Rachels house');")
     connection.exec("INSERT INTO spaces (name) VALUES ('Aleks house');")
     connection.exec("INSERT INTO spaces (name) VALUES ('James house');")
     connection.exec("INSERT INTO spaces (name) VALUES ('Faisal house');")
-    
-    visit ('/spaces')
+
+    visit '/spaces'
     expect(page).to have_content 'Rachels house'
     expect(page).to have_content 'Aleks house'
     expect(page).to have_content 'James house'

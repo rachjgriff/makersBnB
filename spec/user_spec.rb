@@ -3,10 +3,12 @@ require 'pg'
 describe User do
   describe '.create' do
     it 'creates a new user' do
-      new_user = User.create(name: 'Faisal', username: 'faisalleic', email: 'test@gmail.com', password: 'testpassword')
-      p new_user
-      connection = PG.connect(dbname: 'makers_bnb_test')
-      # expect(new_user.first).to be_a User
+      new_user = User.create(
+        name: 'Faisal',
+        username: 'faisalleic',
+        email: 'test@gmail.com',
+        password: 'testpassword'
+      )
 
       expect(new_user.name).to eq('Faisal')
       expect(new_user.email).to eq('test@gmail.com')

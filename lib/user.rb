@@ -18,14 +18,18 @@ class User
       connection = PG.connect(dbname: 'makers_bnb')
     end
 
-    p result = connection.exec("INSERT INTO users (name, username, email, password) VALUES ('#{name}', '#{username}', '#{email}', '#{password}') RETURNING id, name, username, email, password;")
+    result = connection.exec(
+      "INSERT INTO users (name, username, email, password)
+      VALUES ('#{name}', '#{username}', '#{email}', '#{password}')
+      RETURNING id, name, username, email, password;"
+    )
 
     User.new(
       name: result[0]['name'],
       username: result[0]['username'],
       email: result[0]['email'],
       password: result[0]['password'],
-      )
+    )
 
   end
-  end
+end

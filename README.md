@@ -36,9 +36,13 @@ $ rubocop
 ## USER STORIES
 ----------
 
-ASSUMPTION: Space Owners & Space Renters are already signed up.
+### User Story 1: User Can Sign Up
 
-### User Story 1: Space Owner: Create New Space
+As a Space Renter / Owner
+So that I can sign up to MakersBnB,
+I'd like to sign up with my name, username, email and password
+
+### User Story 2: Space Owner: Create New Space
 
 As a space owner,  
 So that I can hire out my space,  
@@ -54,7 +58,7 @@ I can create a space:
 In the future, it would be nice to create a space with the following information:
 * I can add an available date range for my space.
 
-### User Story 2: Space Renter: Listing Spaces Available for Rent
+### User Story 3: Space Renter: Listing Spaces Available for Rent
 
 As a space renter,  
 So that I can see available spaces to rent,  
@@ -71,7 +75,7 @@ I can see a list of all spaces:
 In the future, it would be nice to filter out spaces that are not available within a specified date range:
 * I can search for available spaces by entering from and to dates.
 
-### User Story 3: Space Renter: Booking Request
+### User Story 4: Space Renter: Booking Request
 
 As a space renter,  
 So that I can request a booking for a space,  
@@ -80,7 +84,7 @@ I'd like to fill in and submit a booking request with my required date (one nigh
 *Space Renter can see whether or not the space has already been booked by date.*  
 *Space Renter is able to send a booking request for a space even if another space renter has also done this.*
 
-### User Story 4: Space Owner: Booking Confirmation
+### User Story 5: Space Owner: Booking Confirmation
 
 As a space owner,  
 So that I can confirm a booking request,  
